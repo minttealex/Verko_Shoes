@@ -1,0 +1,33 @@
+﻿<Page x:Class="Verko_Shoes.AuthPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Verko_Shoes"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="600"
+      Title="AuthPage" FontFamily="Times New Roman">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock Text="Логин: " Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="0"></TextBlock>
+        <TextBlock Text="Пароль: " Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <TextBox Name="TBLogin"  Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Column="1" Width="175" Height="25"></TextBox>
+        <TextBox Name="TBPassword" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Width="175" Height="25"></TextBox>
+
+        <Button Content="Войти как гость" Name="BtnEnterGuest" Click="BtnEnterGuest_Click" Grid.Column="0" Grid.Row="2"></Button>
+
+        <Button Content="Войти" Name="BtnEnter" Click="BtnEnter_Click" Grid.Column="1" Grid.Row="2"></Button>
+    </Grid>
+</Page>

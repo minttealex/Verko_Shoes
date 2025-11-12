@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eafab02984284cb4ab28a9adc7d19460" Name="Diagram1">
+        <EntityTypeShape EntityType="Verko_ShoesModel.OrderProduct" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Verko_ShoesModel.Orders" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Verko_ShoesModel.PickUpPoints" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Verko_ShoesModel.ProductCategory" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Verko_ShoesModel.Products" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Verko_ShoesModel.Roles" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Verko_ShoesModel.Status" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Verko_ShoesModel.Users" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="Verko_ShoesModel.FK_OrderProduct_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="Verko_ShoesModel.FK_OrderProduct_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Verko_ShoesModel.FK_Orders_PickUpPoints" ManuallyRouted="false" />
+        <AssociationConnector Association="Verko_ShoesModel.FK_Orders_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="Verko_ShoesModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Verko_ShoesModel.FK_Products_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="Verko_ShoesModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
