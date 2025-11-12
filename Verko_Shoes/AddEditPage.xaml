@@ -74,6 +74,7 @@
                 </Binding>
             </Image.Source>
         </Image>
+        
         <Button Name="PhotoChangeButton" Content="Изменить фото" Grid.Column="3" Grid.Row="7" Click="PhotoChangeButton_Click" Width="190" Height="25" HorizontalAlignment="Left"/>
 
         <Button Name="SaveButton" Content="Сохранить" Click="SaveButton_Click" Grid.Row="7" Grid.ColumnSpan="2" Grid.Column="1" Width="190" Height="25" HorizontalAlignment="Center"/>
